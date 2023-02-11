@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {ChakraProvider, theme} from '@chakra-ui/react';
+import {ChakraProvider} from '@chakra-ui/react';
+import {theme} from './styles/theme';
 
 // Run MSW Browser on Local Env Mock
 if (process.env.REACT_APP_SERVER === 'mock') {

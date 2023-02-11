@@ -1,0 +1,26 @@
+[
+  {
+    "title": "European Quest",
+    "countries_count": 8,
+    "days_count": 21,
+    "emission_offset": "810 Kg CO2e",
+    "rating": 4.5,
+    "background": "./img/dessert.jpg"
+  },
+  {
+    "title": "Autumn Roadtrip",
+    "countries_count": 1,
+    "days_count": 14,
+    "emission_offset": "356 t CO2e",
+    "rating": 4.5,
+    "background": "./img/road.jpg"
+  },
+  {
+    "title": "Diving Adventure in Egypt",
+    "countries_count": 1,
+    "days_count": 5,
+    "emission_offset": "692 t CO2e",
+    "rating": 4.5,
+    "background": "./img/deep-sea.jpg"
+  }
+]
