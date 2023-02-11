@@ -1,6 +1,6 @@
 import React from 'react';
 import StyledTripCard from './TripCard.style';
-import {Card, CardBody, Heading, Image, SimpleGrid, Text, Box, Flex, Center} from '@chakra-ui/react';
+import {Card, CardBody, Heading, Image, Text, Box, Flex, Center} from '@chakra-ui/react';
 import {DataI} from '../../interfaces/data';
 import EmissionCard from '../EmissionCard/EmissionCard';
 import RatingCard from '../RatingCard/RatingCard';
