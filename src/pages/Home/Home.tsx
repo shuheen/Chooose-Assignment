@@ -22,18 +22,8 @@ function Home() {
   return (
     <StyledHome>
       <Box className="container">
-        {cardData.map((data) => {
-          const {title, background, countries_count, days_count, rating, emission_offset} = data;
-          return (
-            <TripCard
-              title={title}
-              background={background}
-              countries_count={countries_count}
-              days_count={days_count}
-              rating={rating}
-              emission_offset={emission_offset}
-            />
-          );
+        {cardData.map((data, index) => {
+          return <TripCard key={index} {...data} />;
         })}
       </Box>
     </StyledHome>

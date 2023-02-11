@@ -9,15 +9,15 @@ interface TripCardProps extends DataI {}
 
 function TripCard({title, background, countries_count, days_count, rating, emission_offset}: TripCardProps) {
   return (
-    <StyledTripCard>
+    <StyledTripCard data-testid="trip-card">
       <Card maxW="sm" p="10px" borderRadius="2xl">
         <CardBody p={0} position="relative">
           <Flex>
             <Center>
-              <Image src={background} maxH="100%" alt={title} borderRadius="lg" />
+              <Image src={background} maxH="100%" alt={title} borderRadius="lg" data-testid="card-image" />
               <Box className="overlay" borderRadius="lg">
                 <Box className="content-container">
-                  <Heading size="30px" color="#fff">
+                  <Heading size="30px" color="#fff" data-testid="card-title">
                     {title}
                   </Heading>
                   <Text fontSize="10px" textAlign="center" color="#fff">

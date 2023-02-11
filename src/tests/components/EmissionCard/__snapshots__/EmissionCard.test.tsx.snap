@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <EmissionCard /> Renders with defaults 1`] = `
+<div>
+  <div
+    class="css-1vgx9f6"
+    data-testid="emission-card"
+  >
+    <div
+      class="chakra-card css-ypyvwe"
+    >
+      <div
+        class="css-k008qs"
+      >
+        <p
+          class="chakra-text css-1qxtz39"
+        >
+          Emission
+        </p>
+        <div
+          class="css-17xejub"
+        />
+        <p
+          class="chakra-text css-1qxtz39"
+          data-testid="emission-value"
+        >
+          810 Kg CO2e
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

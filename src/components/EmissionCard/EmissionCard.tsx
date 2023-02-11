@@ -7,12 +7,14 @@ interface EmissionCardProps {
 }
 function EmissionCard({emission_offset}: EmissionCardProps) {
   return (
-    <StyledEmissionCard>
+    <StyledEmissionCard data-testid="emission-card">
       <Card backgroundColor="#1f2837" color="#fff" borderRadius="md" p={2} mt={2}>
         <Flex>
           <Text fontSize="12px">Emission</Text>
           <Spacer />
-          <Text fontSize="12px">{emission_offset}</Text>
+          <Text fontSize="12px" data-testid="emission-value">
+            {emission_offset}
+          </Text>
         </Flex>
       </Card>
     </StyledEmissionCard>

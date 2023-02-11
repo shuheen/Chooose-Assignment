@@ -21,6 +21,7 @@ function RatingCard({value}: RatingCardProps) {
             halfIcon={<i className="fa fa-star-half-alt"></i>}
             fullIcon={<i className="fa fa-star"></i>}
             value={value}
+            classNames="rating"
           />
           <Text fontSize="xs">{value}</Text>
         </Center>

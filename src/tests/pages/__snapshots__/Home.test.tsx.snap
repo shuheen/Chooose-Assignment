@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <Home /> Renders with defaults 1`] = `
+<div>
+  <div
+    class="css-fypa9j"
+  >
+    <div
+      class="container css-0"
+    />
+  </div>
+</div>
+`;
