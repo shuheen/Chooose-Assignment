@@ -14,6 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `yarn`
+
+To install all dependency packages.
+
+### `yarn start`
+
+Runs the app with Mock Server in the development mode. Note: Have changed the script just for testing purpose so that
+app starts with Mock data.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 ### `yarn start:mock`
 
 Runs the app with Mock Server in the development mode.\
