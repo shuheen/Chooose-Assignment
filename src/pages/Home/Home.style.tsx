@@ -11,6 +11,7 @@ const StyledHome = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     @media (max-width: 768px) {
       width: 90%;
       flex-wrap: wrap;

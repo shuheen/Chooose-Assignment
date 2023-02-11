@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 const StyledTripCard = styled.div`
   margin: 10px;
+  max-width: 320px;
   .overlay {
     position: absolute;
     bottom: 0;
