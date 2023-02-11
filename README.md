@@ -2,13 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Data Json
+
+Data JSON file is present inside the src folder. Data can be change in this file.`
+
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `Data Json`
-
-Data JSON file is present inside the src folder. Data can be change in this file.
 
 ### `yarn`
 
