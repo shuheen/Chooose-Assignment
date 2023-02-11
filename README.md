@@ -6,13 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `Data Json`
 
-Runs the app in the development mode. Have changed the script for testing purpose so that app starts with MOck Server\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Data JSON file is present inside the src folder. Data can be change in this file.
 
 ### `yarn`
 
